@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: url("images6.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    background-color: #e04747;
+  }
+  
+  .about-section {
+    padding: 60px 30px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .about-section h1 {
+    font-size: 3rem;
+    color: #ffdddd;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #ffe6e6;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .about-section ul {
+    margin-top: 1rem;
+    list-style: none;
+  }
+  
+  .about-section ul li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  button {
+    margin-top: 2rem;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e04747;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 0.9rem;
+    color: #fff;
+  }
+  

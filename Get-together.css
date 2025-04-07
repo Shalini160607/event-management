@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: url("images5.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .logo span {
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    background-color: #4834d4;
+  }
+  
+  .gettogether-section {
+    padding: 60px 20px 30px;
+    text-align: center;
+    
+  }
+  
+  .gettogether-section h1 {
+    font-size: 2.5rem;
+    color: red;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+    color: white;
+  }
+  
+  .benefits {
+    padding: 40px 20px;
+    
+  }
+  
+  .benefits h2 {
+    font-size: 1.8rem;
+    color: red;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .benefits ul {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color:white;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .benefits ul li {
+    margin-bottom: 1rem;
+    padding-left: 1.2rem;
+    position: relative;
+  }
+  
+  .details {
+    padding: 40px 20px;
+    
+    text-align: center;
+  }
+  
+  .details h2 {
+    font-size: 1.8rem;
+    color: red;
+    margin-bottom: 1.2rem;
+  }
+  
+  .details p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    color:#fff;
+  }
+  
+  button {
+    margin-top: 1.5rem;
+    
+    color: black;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4834d4;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: white;
+    
+    font-size: 0.9rem;
+  }
+  
